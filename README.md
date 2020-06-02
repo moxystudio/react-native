@@ -1,6 +1,6 @@
 # ⚠️ Purpose of this fork
 
-This is short-lived fork. We have created a [branch](https://github.com/moxystudio/react-native/tree/fix/reset-android-view-transform-matrix) from [v0.61.5](https://github.com/moxystudio/react-native/tree/v0.61.5) to fix an issue where `View` transforms were not being properly rendered in some specific cases (see [PR](https://github.com/facebook/react-native/pull/25438)). Once the affected apps upgrade to v0.62.0+, this fork shall be archived. Until then, ***DO NOT*** delete the aforementioned branch.
+This is short-lived fork. We have created a [branch](https://github.com/moxystudio/react-native/tree/fix/reset-android-view-transform-matrix) from [v0.61.5](https://github.com/moxystudio/react-native/tree/v0.61.5) to fix an issue where `View` transforms were not being properly rendered in some specific cases (see [PR](https://github.com/facebook/react-native/pull/25438)). Once the affected apps upgrade to v0.62.0+, this fork shall be archived and the `package.json` of each app updated accordingly. Until then, please ***DO NOT*** delete the aforementioned branch.
 
 **Full diff:** https://github.com/moxystudio/react-native/compare/v0.61.5...moxystudio:fix/reset-android-view-transform-matrix
 
